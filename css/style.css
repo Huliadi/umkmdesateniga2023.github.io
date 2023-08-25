@@ -1,0 +1,342 @@
+.warna1 {
+  background-color: #b6895b;
+}
+.warna2 {
+  background-color: #010101;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: #010101;
+  color: #fff;
+}
+
+.navbar {
+  background-color: rgba(1, 1, 1, 0.8);
+  border-bottom: 1px solid #513c28;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  font-style: italic;
+}
+span {
+  color: #b6895b;
+}
+
+h2 {
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+
+.banner {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/banner-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner .container h1 {
+  font-size: 5em;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  line-height: 1.2;
+}
+
+/* About Section */
+
+.about {
+  padding: 8rem 7% 1.4rem;
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+}
+
+.about h2 span {
+  color: #b6895b;
+}
+
+.about {
+  padding: 8rem 7% 1.4rem;
+}
+
+.about .row .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+
+.about .row .content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about .row .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+/* Custom Styles for Kategori Section */
+.highlighted-kategori {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.highlighted-kategori:hover {
+  transform: scale(1.05);
+}
+.ktg-makanan {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/kategori-makanan.jpeg");
+  background-size: cover;
+  background-position: 50% 100%;
+}
+.ktg-minuman {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/kategori-minuman.jpeg");
+  background-size: cover;
+  background-position: 50% 100%;
+}
+.ktg-anyaman {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/kategori-kerajinan.jpeg");
+  background-size: cover;
+  background-position: 50% 100%;
+}
+.ktg-hiasan {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/kategori-hiasan.jpeg");
+  background-size: cover;
+  background-position: 50% 100%;
+}
+
+.highlighted-kategori h4 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 2rem;
+  padding: 0;
+}
+.highlighted-kategori {
+  height: 250px;
+}
+
+/* Custom Styles for Tentang Kami Section */
+.container-fluid.warna1 {
+  background-color: #b6895b;
+  color: #333;
+}
+
+.container-fluid.warna1 h3 {
+  color: #333;
+}
+
+.container-fluid.warna1 p {
+  line-height: 1.6;
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: white;
+}
+
+.produk-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.produk-card:hover {
+  transform: translateY(-10px);
+}
+
+.produk-card .card-body {
+  padding: 1rem;
+}
+
+.text-harga {
+  font-size: 22px;
+  color: #b6895b;
+}
+
+.image-box {
+  height: 250px;
+}
+
+.image-box img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.content-subscribe {
+  background-color: #b6895b;
+}
+.content-subscribe a {
+  color: #fff;
+}
+.content-subscribe a:hover {
+  color: #010101;
+}
+
+.banner2 {
+  height: 45vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/banner-bg.jpeg");
+  background-position: 50% 65%;
+}
+
+.list-group a {
+  text-decoration: none;
+  color: #010101;
+}
+
+.produk-terkait-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.btn-wa {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.content .row {
+  display: flex;
+  margin-top: 2rem;
+  background-color: #222;
+}
+
+.content .row .map {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.content {
+  padding: 8rem 7% 1.4rem;
+}
+
+.content h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+}
+
+.content h2 span {
+  color: #b6895b;
+}
+
+.content h2 {
+  margin-bottom: 1rem;
+}
+.content p {
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+.content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: #b6895b;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 3rem;
+}
+
+footer .social {
+  padding: 1rem 0 3rem;
+}
+
+footer .social a {
+  color: #fff;
+  margin: 1rem;
+}
+
+footer .social a:hover,
+footer .links a:hover {
+  color: #010101;
+}
+
+footer .links {
+  margin-bottom: 1.4rem;
+}
+
+footer .links a {
+  color: #fff;
+  padding: 0.7rem 1rem;
+  text-decoration: none;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+}
+
+footer .credit a {
+  color: #010101;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Tablet */
+
+@media (max-width: 758px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .about .row {
+    flex-wrap: wrap;
+  }
+  .about .row .about-img img {
+    height: 24rem;
+    object-fit: cover;
+    object-position: center;
+  }
+  .about .row .content {
+    padding: 0;
+  }
+  .about .row .content h3 {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+  .about .row .content p {
+    font-size: 1.6rem;
+  }
+}
+
+/* Mobile Phone */
+
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}
